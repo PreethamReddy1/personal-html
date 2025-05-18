@@ -1,0 +1,61 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #ececec;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main{
+  flex: 1;
+}
+#navbarbg{
+    background-color: black;
+  }
+
+.skills{
+  display: grid;
+  grid-template-rows: 100px auto;
+  grid-template-columns: 300px auto;
+  margin-left: 100px;
+}
+
+.skills > .skill-heading{
+  margin-left: 500px;
+  grid-column: span 2;
+  font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+}
+.skills > .img-text{
+  height: 400px;
+  width: 400px;
+}
+.last > h1{
+  text-align: center;
+  size: 100px;
+  color: rgba(0, 255, 213, 0.931);
+  font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+}
+.last > .para{
+  margin-top: 20px;
+  text-align: center;
+}
+.last > #first {
+  color: rgb(6, 84, 23);
+  font-size: 22px;
+}
+.last > #second {
+  font-size: 22px ;
+}
+#button{
+  background-color: turquoise;
+  border-radius: 8px;
+  border: none;
+  size: 20px;
+  margin-left: 650px;
+}
+.footer{
+  background-color: cadetblue;
+}
+#navbar-back{
+  background-color:rgb(226, 118, 116);
+}
